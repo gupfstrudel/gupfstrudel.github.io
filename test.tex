@@ -1,0 +1,81 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{pgf}
+\usepackage{svg}
+\usepackage{tikz}
+\usepackage{stanli}
+\usepackage{afterpage}
+\usepackage{multirow}
+\usepackage{subfig}
+\usepackage{pgfpages}
+\usepackage{rotating}
+\usepackage{graphicx}
+\usepackage{titlesec}
+\usepackage[german]{babel}
+\usepackage[a4paper,top=2cm,bottom=1.5cm,left=1.5cm,right=1.5cm,marginparwidth=1.75cm]{geometry}
+\usepackage{amsmath}
+\usepackage[colorlinks=true, allcolors=black]{hyperref}
+\usepackage{listings}
+\lstset{
+    escapeinside={(*@}{@*)}, % Escape für spezielle Zeichen
+    basicstyle=\ttfamily,
+    columns=fullflexible,
+    keepspaces=true
+}
+
+
+\pgfpagesdeclarelayout{boxed}
+{
+    \edef\pgfpageoptionborder{0pt}
+}
+{
+    \pgfpagesphysicalpageoptions
+    {%
+        logical pages=1,%
+    }
+    \pgfpageslogicalpageoptions{1}
+    {
+        border code=\pgfsetlinewidth{2pt}\pgfstroke,%
+        border shrink=\pgfpageoptionborder,%
+        resized width=.9\pgfphysicalwidth,%
+        resized height=.9\pgfphysicalheight,%
+        center=\pgfpoint{.5\pgfphysicalwidth}{.5\pgfphysicalheight}%
+    }%
+}
+
+\pgfpagesuselayout{boxed}
+
+\begin{document}
+    
+    \begin{titlepage}
+        \begin{center}
+            \vspace*{3cm}
+            
+            \Huge
+            \textbf{Arbeitsbericht}
+            
+            \vspace{0.3cm}
+            \Huge
+           Schleifen
+            
+            \vspace{0.8cm}
+            \includegraphics[width=0.5\textwidth]{images/titelbild.png}\\
+            \small
+           Abb\footnote{Ai Genrated mit DALL:E}: Bild zum Thema schleifen in bash
+            \small
+            \vspace{0.5cm}
+            \LARGE
+            
+            \vfill
+            
+            \Large
+            \begin{tabbing}
+                \hspace*{1em}\= \hspace*{8em} \= \kill % set the tabbings
+                \> Name:\>  \textbf{Lena-Marie Kaufleitner} \\
+                \> Klasse:\>  3AHITS \\
+                \> Fach:\>  SYTB \\
+                \> Datum: \>  07.3.2024 \\
+            \end{tabbing}
+        \end{center}
+    \end{titlepage} 
+    
+    \tableofcontents
