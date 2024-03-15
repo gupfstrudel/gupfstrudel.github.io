@@ -1,5 +1,4 @@
 ---
-Author: Lena
 ---
 
 Hier beginnt der eigentliche Inhalt des Blogbeitrags.
