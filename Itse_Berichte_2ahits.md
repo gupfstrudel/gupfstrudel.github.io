@@ -8,5 +8,3 @@ layout: default
 * [Stdout-Optionen](https://gupfstrudel.github.io/PDFS/stdout.pdf)
 * [Markdown PDF Converter](https://gupfstrudel.github.io/PDFS/pdfconverter.pdf)
 
-  
----
