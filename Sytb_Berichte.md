@@ -1,6 +1,4 @@
----
-layout: post
----
+
 # Klassen
 ## 2AHITS
 ### Linux Commandline 
