@@ -1,4 +1,6 @@
-
+---
+layout: default
+---
 # Klassen
 ## 2AHITS
 ### Linux Commandline 
