@@ -1,20 +1,10 @@
 ---
 layout: default
 ---
-# Klassen
-## 2AHITS
-### Linux Commandline 
+# Linux Commandline 
 * [Shell Grundlagen](https://gupfstrudel.github.io/PDFS/Shell_Grundlagen.pdf)
 * [Filesystem](https://gupfstrudel.github.io/PDFS/Filesystem.pdf)
 * [Wildcards, Stdin & out](https://gupfstrudel.github.io/PDFS/wildcards.pdf)
 * [Stdout-Optionen](https://gupfstrudel.github.io/PDFS/stdout.pdf)
 * [Markdown PDF Converter](https://gupfstrudel.github.io/PDFS/pdfconverter.pdf)
 ---
-## 3AHITS
-### Windows Server
-
-### Bash Scripting
----
-## 4AHITS
----
-## 5AHITS
